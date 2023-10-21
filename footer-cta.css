@@ -1,0 +1,47 @@
+.background-container {
+    
+}
+
+#footer {
+    background-image: url('fcta.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-text * {
+    text-align: center;
+}
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-container-blur {
+    content: '';
+    z-index: -1;
+    backdrop-filter: blur(100px);
+    border-radius: 15px;
+    padding: 4rem 0;
+}
+

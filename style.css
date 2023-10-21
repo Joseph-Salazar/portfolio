@@ -1,0 +1,65 @@
+@import url('hero.css');
+@import url('dots.css');
+@import url('navbar.css');
+@import url('features.css');
+@import url('footer-cta.css');
+@import url('tilted.css');
+@import url('more-skills.css');
+@import url('grid.css');
+@import url('recent-projects.css');
+
+:root {
+    --primary: #1eff88;
+    --whitish: #f7f7f7;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.portfolio-card {
+    padding: 2rem;
+    border: 1px solid #323232;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-image {
+    width: 100%;
+}
+
+.featured-image img {
+    width: 100%;
+}
+
+.portfolio h3 {
+    text-align: left;
+    margin-top: 16px;
+    font-size: 2.5rem;
+}
+
+.portfolio p {
+    color: #d6d6d6
+}
+
+.portfolio a {
+    color: #1eff88
+}
+
+.portfolio-btn {
+    display: inline-block;
+    background-color: var(--primary);
+    color: #000 !important;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: auto;
+    align-self: flex-start;
+}
+

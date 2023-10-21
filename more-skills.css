@@ -1,0 +1,28 @@
+.more-skills-wrapper {
+    background: url('assets/hexagon-bg.png') no-repeat center center/cover;
+
+}
+
+.more-skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    gap: 2rem;
+}
+
+.more-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.more-skill-image-container {
+    width: 200px;
+    height: auto;
+}
+
+.more-skill-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

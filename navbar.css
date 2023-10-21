@@ -1,0 +1,38 @@
+.navbar {
+    position: absolute;
+    top: 20px;
+    left: 47%;
+    background-color: #1d1d1d;
+    border-radius: 20px; /* Makes it pill-shaped */
+    padding: 10px 20px;
+    margin-inline: 10px;
+    display: flex;
+    justify-content: center;
+    z-index: 10; /* Ensures navbar stays on top */
+    border: 1px solid #00f98d;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px; /* Gives the pill shape to each link */
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #00f98d;
+}
